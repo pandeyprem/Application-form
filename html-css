@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <style>
+        body {
+            background-color: #4FBDBA;
+            background: url('https://www.best4webdesign.com/wp-content/uploads/2020/04/animated-css-background-generator-800x600.jpg');
+            background-size: cover;
+        }
+
+        .pandey {
+            background-color: #9cb5ce;
+            height: 580px;
+            width: 350px;
+            padding: 15px;
+            margin: 45px;
+            border-radius: 10px;
+            border: 2px solid #31363b;
+        }
+
+        #big {
+            background-color: #EA99D5;
+            height: 40px;
+            width: 360px;
+            padding: 15px;
+            margin: 45px;
+            border-radius: 10px;
+        }
+
+        .prakash {
+            background-color: #D9D7F1;
+            padding: 30px;
+            border: 2px solid black;
+            margin: 34px auto;
+            height: auto;
+            width: 250px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+
+        .btn {
+            background-color: #92A9BD;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:visited {
+            background-color: #043c5a;
+
+        }
+
+        a.active {
+            background-color: #011111;
+        }
+
+        a:hover {
+            background-color: #3897e0;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #9f23a8;
+        }
+
+        .navbar {
+            background-color: #021829;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 15px 3px;
+        }
+
+        .navbar li a {
+            padding: 3px 10px;
+            text-decoration: none;
+            color: #D9D7F1;
+        }
+
+        .search {
+            float: right;
+            color: #3897e0;
+            padding: 17px 80px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 3px;
+        }
+
+        img {
+            width: 90px;
+            height: 60px;
+        }
+
+        #learn {
+            background-color: #a861adde;
+
+        }
+
+        .down img {
+            width: 60px;
+            height: 40px;
+        }
+
+        header {
+            margin: auto;
+        }
+
+        h2 {
+            border-radius: 40px;
+        }
+        .box{
+            border: 2px solid black;
+            background-color: #71afdf;
+            margin: 4px;
+            padding: 23px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.mTGNAm6sFyLO-fT0i6N_NwHaDe&pid=Api&P=0&w=332&h=156" alt="">
+    </header>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">SUMMARY</a></li>
+                <div class="search">
+                    <input type="text" Name="Search" id="Search" placeholder="Search This Website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <center>
+        <H1 id="big">Application form</H1>
+        <form action="backend.php">
+            <tr>
+                <div class="pandey">
+                    <div>
+                        <td> First Name:<input type="Name" placeholder="Enter your First Name"></td><br><br>
+                    </div>
+                    <div>
+                        <td>Last Name:<input type="Name" placeholder="Enter your Last Name"></td><br><br>
+                    </div>
+                    <div>
+                        <td>Date of birth:<input type="date"></td><br><br>
+                    </div>
+                    <div>
+                        <td>Gender:<input type="radio" name="Gender" value="Male">Male</td>
+                        <td><input type="radio" name="Gender" value="Male">FeMale</td><br><br>
+                    </div>
+                    <div>
+                        <td>Email Address:<input type="email" placeholder="abc@123gmail.com"></td><br><br>
+                    </div>
+                    <div>
+                        <td>Password:<input type="password" placeholder="Enter your password"></td><br><br>
+                        <td>Confirm Password<input type="password" placeholder="Enter Confirm password"></td><br><br>
+                    </div>
+                    <div>
+                        <td>Mobile No:<input type="mobile No" placeholder="+91**********"></td><br><br>
+                    </div>
+                    <div>
+                        <td>Technicals Skills:<br><br><input type="checkbox" name="Web developer">WebDeveloper</td>
+                        <td><input type="checkbox" name="android developer">Android Developer</td><br>
+                        <td><input type="checkbox" name="Programmer">Programmer</td>
+                        <td><input type="checkbox" name="Hacker">Hacker</td><br><br>
+                    </div>
+                    <div id="prem">
+                        <td>Address::<br><br><textarea name="mytext" id="" cols="30" rows="5"></textarea></td><br><br>
+                    </div>
+            </tr>
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="Reset" value="Reset Now"><br><br><br><br>
+            </div>
+            <div class="prakash">
+                <div class="container" id="cont1"></div>
+                <h2>Overview</h2>
+                <p>In an inline form, all of the elements are inline, left-aligned, and the labels are alongside.
+
+                    Note: This only applies to forms within viewports that are at least 768px wide!
+
+                    Additional rule for an inline form:
+
+                    Add class .form-inline to the
+                <form> element
+                    The following example creates an inline form with two input fields, one checkbox, and one submit
+                    button:</p>
+                    <a href="https://www.google.com" class="btn">Read More</a>
+                    <button class="btn">Contact Us</button>
+            </div>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <header class="down">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.mTGNAm6sFyLO-fT0i6N_NwHaDe&pid=Api&P=0&w=332&h=156" alt="">
+                <h2 id="learn"><b>LEARN HOW TO</b></h2>
+                <div class="container">
+                    <div class="box">
+                        <h4 class="heading">
+                            <p><h2>About</h2>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+                               CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+                        </h4>
+                    </div>
+                    <div class="box">
+                        <h4 class="heading">
+                            <p><h2>Summary</h2>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+                                CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting</p>
+                        </h4>
+                    </div>
+                    <div class="box">
+                        <h4 class="heading">
+                            <p><h2>Experience</h2>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+                                CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting</p>
+                        </h4>
+                    </div>
+                </div>
+            </header>
+    </center><br><br>
+
+
+</body>
+
+</html>
