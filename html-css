@@ -181,10 +181,10 @@ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLP
                     <div>
                         <td>Date of birth:<input type="date"></td><br><br>
                     </div>
-                    <div>
+                    <!-- <div>
                         <td>Gender:<input type="radio" name="Gender" value="Male">Male</td>
                         <td><input type="radio" name="Gender" value="Male">FeMale</td><br><br>
-                    </div>
+                    </div> -->
                     <div>
                         <td>Email Address:<input type="email" placeholder="abc@123gmail.com"></td><br><br>
                     </div>
